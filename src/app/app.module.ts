@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy },],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

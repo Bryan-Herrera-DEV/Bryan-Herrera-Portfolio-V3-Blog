@@ -10,7 +10,7 @@ If one of these technologies might be new to you:
 
 You can find the code for this project in [this repository](https://github.com/m-goos/angular-blog) and view the live result [here](http://angular-serverless-blog.s3-website.eu-central-1.amazonaws.com/). The result:
 
-|![List of blog posts](assets/cloud-blog-setting-up-an-angular-11-blog-in-the-aws-cloud/images/example.png)|![View of one post](assets/cloud-blog-setting-up-an-angular-11-blog-in-the-aws-cloud/images/example-1.png)|
+|![List of blog posts](assets/blogs/cloud-blog-setting-up-an-angular-11-blog-in-the-aws-cloud/images/example.png)|![View of one post](assets/cloud-blog-setting-up-an-angular-11-blog-in-the-aws-cloud/images/example-1.png)|
 |:---:|:---:|
 |*List of blog posts*|*View of a single post*|
 
@@ -326,10 +326,3 @@ The following resources have been helpful for writing this post. If you feel lik
 - [Jekyll](https://jekyllrb.com/) for static site generation
 - [How to Blog](https://sneak.berlin/20150717/how-to-blog/) - Jeffrey Paul
 - [Creating an Angular Jamstack blog](https://www.netlify.com/blog/2020/07/14/creating-an-angular-jamstack-blog/)
-
-## Who Am I?
-I’m Marc, a junior full stack engineer at [Techspire](www.techspire.nl) and I ride my bike in Amsterdam 🇳🇱 I have an engineering bachelor’s, an entrepreneurship master’s and when I am not coding, I am probably doing water sports.
-
-Do you think you have what it takes to work with us? At Techspire we’re looking for people who love technology as much as we do, looking to push themselves to expand their knowledge. Also, we love a good story, a good laugh, and a few beers.
-
-*This blog was originally published on https://techspire.nl/blogs/*

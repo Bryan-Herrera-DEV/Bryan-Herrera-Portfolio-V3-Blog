@@ -1,5 +1,83 @@
+<br><br><br><br><br><br><br>
 <div class="markdown-post">
   <ng-container *ngIf="post$ | async as post">
     <div id="markdown-post" markdown [src]="post"></div>
   </ng-container>
+
+  <section class="position-relative">
+    <div class="container position-relative">
+        <div class="px-4 px-lg-7 py-9 py-lg-11 bg-shade-primary rounded-5 text-white overflow-hidden position-relative">
+            <svg class="position-absolute end-0 bottom-0 text-warning w-75 h-auto w-lg-60" width="197" height="99" viewBox="0 0 197 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M280 141C280 122.615 276.392 104.41 269.381 87.4243C262.371 70.4387 252.095 55.0052 239.141 42.005C226.188 29.0048 210.809 18.6925 193.884 11.6569C176.959 4.6212 158.819 0.999999 140.5 1C122.181 1 104.041 4.62121 87.1157 11.6569C70.1907 18.6925 54.8124 29.0049 41.8586 42.0051C28.9048 55.0053 18.6293 70.4387 11.6188 87.4243C4.60827 104.41 0.999998 122.615 1 141L280 141Z" class="stroke-white" stroke-opacity=".2" stroke-width="1.5"></path>
+                <path d="M384 151C384 132.615 380.392 114.41 373.381 97.4243C366.371 80.4387 356.095 65.0052 343.141 52.005C330.188 39.0048 314.809 28.6925 297.884 21.6569C280.959 14.6212 262.819 11 244.5 11C226.181 11 208.041 14.6212 191.116 21.6569C174.191 28.6925 158.812 39.0049 145.859 52.0051C132.905 65.0053 122.629 80.4387 115.619 97.4243C108.608 114.41 105 132.615 105 151L384 151Z" class="stroke-light" stroke-opacity=".2" stroke-width="1.5"></path>
+            </svg>
+
+            <div class="position-relative">
+                <h3 class="display-6 mb-5 aos-init aos-animate">¿Quien soy yo?</h3>
+                <p class="small text-muted mb-0 aos-init aos-animate" >
+                  Mi Nombre es <a href="https://bryan-herrera.netlify.app" target="_blank" rel="noopener noreferrer" class="link-hover-underline">Bryan Herrera</a> soy un desarrollador web con mas de 4 años de experiencia en el desarrollo. Me encanta compartir todo mis conocimientos con la comunidad, y ayudar a los demas a crecer en el mundo del desarrollo web tanto en fron-End como en back-end.
+                </p>
+                <br>
+                <p>Puedes encontrarme en las principales redes sociales:</p>
+                <div class="d-flex align-items-center navbar-no-collapse-items py-1 order-last">
+                  <!-- <div class="nav-item fullscreen-toggler order-last ms-4">
+                      <a href="#offcanvas-fullscreen" class="nav-link width-3x d-block" data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvas-fullscreen">
+                          <div class="width-2x mb-1 border-bottom border-white border-2"></div>
+                          <div class="width-2x ms-auto border-bottom border-white border-2"></div>
+                          <span class="d-none">Open Canvas</span>
+                      </a>
+
+                  </div> -->
+                  <div class="nav-item">
+
+                      <a href="https://github.com/Bryan-Herrera-DEV" aria-label="GitHub" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-github fs-5"></i>
+                          <span class="d-none">Bryan Herrera Github</span>
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+
+                      <a href="https://www.youtube.com/channel/UCpqPMLwkeOwqC_eKJi0tumg" aria-label="GitHub" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-youtube fs-5"></i>
+                          <span class="d-none">Bryan Herrera Youtube</span>
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+                      <a href="https://twitter.com/BryanHe52482198" aria-label="Twitter" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-twitter fs-5"></i>
+                          <span class="d-none">Bryan Herrera Twiter</span>
+
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+                      <a href="https://www.linkedin.com/in/bryan-herrera-dev/" aria-label="Linkedin" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-linkedin fs-5"></i>
+                          <span class="d-none">Bryan Herrera linkedin</span>
+
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+                      <a href="https://www.instagram.com/_bryan_herrera_dev_/" aria-label="Instagram" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-instagram fs-5"></i>
+                          <span class="d-none">Bryan Herrera Instagram</span>
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+                      <a href="https://codepen.io/Bryanlolry" aria-label="Instagram" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                          <i class="bx bxl-codepen fs-5"></i>
+                          <span class="d-none">Bryan Herrera Codepen</span>
+                      </a>
+                  </div>
+                  <div class="nav-item ms-1">
+                    <a href="https://codepen.io/Bryanlolry" aria-label="Instagram" target="_blank" rel="noreferrer noopener" class="btn btn-outline-light border-0 rounded-pill btn-sm p-0 width-3x height-3x flex-center">
+                        <i class="bx bx-world fs-5"></i>
+                        <span class="d-none">Bryan Herrera Codepen</span>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
 </div>

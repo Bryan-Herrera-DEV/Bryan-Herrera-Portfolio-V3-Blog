@@ -6,6 +6,7 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
+  styleUrls: ['./post.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 export class PostComponent implements OnInit {
@@ -15,7 +16,7 @@ export class PostComponent implements OnInit {
 
   ngOnInit() {
     this.post$ = this.route.params.pipe(
-      map((params) => `/assets/${params['id']}/${params['id']}.md`)
+      map((params) => `/assets/blogs/${params['id']}/${params['id']}.md`)
     );
   }
 }
