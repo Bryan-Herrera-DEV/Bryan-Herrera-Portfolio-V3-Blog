@@ -5,8 +5,10 @@ import { PostComponent } from './post/post.component';
 
 const routes: Routes = [{
   path: '',
-  children: [ {path: '', component: EntryListComponent },
-  { path: ':id', component: PostComponent, pathMatch: 'full' }, ]
+  children: [
+    { path: '', component: EntryListComponent },
+    { path: ':id', component: PostComponent, pathMatch: 'full' },
+  ]
 }];
 
 @NgModule({
