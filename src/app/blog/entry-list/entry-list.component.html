@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="entry-list">
+    <ul>
+      <li *ngFor="let entry of entries">
+        {{ entry.date | date: 'YYYY LLL MM' }}:
+        <a routerLink="/blog/{{ entry.slug }}">{{ entry.title }}</a>
+      </li>
+    </ul>
+  </div>
+</div>

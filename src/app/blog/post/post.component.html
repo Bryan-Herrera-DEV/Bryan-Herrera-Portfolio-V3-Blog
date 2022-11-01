@@ -1,0 +1,5 @@
+<div class="markdown-post">
+  <ng-container *ngIf="post$ | async as post">
+    <div id="markdown-post" markdown [src]="post"></div>
+  </ng-container>
+</div>
