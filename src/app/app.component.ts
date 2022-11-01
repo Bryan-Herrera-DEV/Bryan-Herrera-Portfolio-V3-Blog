@@ -23,7 +23,7 @@ export class AppComponent {
 			let elemento = this._document.getElementById("elementId");
 			let script = this._renderer2.createElement("script");
 			script.type = "application/javascript";
-			script.src = "assets/js/theme.bundle.js";
+			script.src = "assets/n_Assets/js/theme.bundle.js";
 			this._renderer2.appendChild(elemento, script);
 		}
   }
